@@ -8,7 +8,7 @@ let salida1 = document.getElementById("salida")
 
 let nombresDeAprobados = (estudiantes) => { 
     return estudiantes.filter((estudiante) => {
-        estudiante.nota >= 10 && estudiante.nota <= 20})
+        estudiante.nota >= 10})
    
 }
 
